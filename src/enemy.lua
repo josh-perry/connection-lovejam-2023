@@ -30,7 +30,7 @@ function Enemy:new(length, spinSpeed)
     self.startSprite = sprite:getRandomSprite()
     self.endSprite = sprite:getRandomSprite()
 
-    self.hasSkull = love.math.random() < 0.3
+    self.hasSkull = love.math.random() <= 0.5
 
     if self.hasSkull then
         self.endSprite = sprite:getSkull()
