@@ -1,0 +1,11 @@
+name = "Connection"
+default_targets = ["win32", "win64", "lovejs", "macos"]
+build_directory = "makelove-build"
+
+love_files = [
+    "::git-ls-tree::",
+    "*.png",
+    "-*/.*",
+]
+
+love_version = "11.4"

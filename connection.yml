@@ -1,0 +1,24 @@
+---
+base: lua51
+
+globals:
+  log:
+    any: true
+  vec2:
+    any: true
+  pubsub:
+    any: true
+  table:
+    any: true
+  pretty:
+    any: true
+  functional:
+    any: true
+  mathx:
+    any: true
+  intersect:
+    any: true
+  class:
+    any: true
+  PROF_CAPTURE:
+    any: true

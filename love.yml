@@ -1,0 +1,10 @@
+---
+base: lua51
+
+globals:
+  love:
+    any: true
+  io.stdout.setvbuf:
+    method: true
+    args:
+      - type: string
