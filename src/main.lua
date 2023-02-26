@@ -1,7 +1,7 @@
 require("lib.batteries"):export()
 
 local Player = require("player")
-local Enemy = require("Enemy")
+local Enemy = require("enemy")
 
 local sprite = require("sprite")
 
